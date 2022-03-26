@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Patrick Pietzonka</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><div class="bars"></div>
+<div class="bars"></div>
+<div class="bars"></div></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="cv.html" class="w3-bar-item w3-button w3-padding-large
+    w3-hover-white">CV</a>
+    
+    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Research</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Publications</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large
+    w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="cv.html" class="w3-bar-item w3-button w3-padding-large">CV</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-padding-large">Research</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-padding-large">Publications</a>
+  </div>
+</div>
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+
+      <h1>Imprint</h1>
+
+    <h5>Contact:</h5>
+    <p>
+ Dr. Patrick Pietzonka<br>
+      Max Planck Institute for the Physics of Complex Systems<br>
+      N&ouml;thnitzer Stra&szlig;e 38<br>
+      01187 Dresden<br>
+      Germany
+    </p>
+
+    <h5>Privacy Policy:</h5>
+    <p>This website does not collect, store or process personally
+    identifiable information and does not require the use of
+    cookies.</p>
+
+    <h5>Third Party Inclusion:</h5>
+    <p>This website is hosted by <a href="https://www.github.com/">GitHub</a> using <a href="https://help.github.com/articles/what-is-github-pages/">GitHub Pages</a>. The GitHub Global Privacy Practices are available <a href="https://help.github.com/articles/global-privacy-practices/">here</a>.</p>
+
+    
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
